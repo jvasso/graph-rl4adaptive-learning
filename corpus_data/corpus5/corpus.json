@@ -1,0 +1,20 @@
+{
+	"0": ["Object-oriented_programming", "Object_(computer_science)", "Computer_programming"],
+	"1": ["Abstraction_(software_engineering)", "Computer_programming", "Object_(computer_science)"],
+	"2": ["Object_(computer_science)", "Attribute_(computing)", "Class_(computer_programming)", "Method_(computer_programming)", "Encapsulation_(computer_programming)"],
+	"3": ["Object_(computer_science)", "Class_(computer_programming)", "Instance_(computer_science)", "Value_(computer_science)"],
+	"4": ["Statement_(computer_science)"],
+	"5": ["Control_flow", "Statement_(computer_science)"],
+	"6": ["Boolean_data_type", "Null_pointer"],
+	"7": ["Logical_connective", "Logical_conjunction", "Logical_disjunction", "Negation", "Truth_table", "Boolean_data_type"],
+	"8": ["Logical_connective", "Conditional_(computer_programming)", "Conditional_(computer_programming)#If–then(–else)"],
+	"9": ["Operator_(computer_programming)", "Relational_operator", "Relational_operator#Equality"],
+	"10":["Iteration", "While_loop", "Infinite_loop", "For_loop"],
+	"11":["Subroutine", "Statement_(computer_science)", "Naming_convention_(programming)"],
+	"12":["Subroutine", "Parameter_(computer_programming)", "Return_statement", "Value_(computer_science)"],
+	"13":["Data", "Variable_(computer_science)", "Data_type", "Naming_convention_(programming)"],
+	"14":["Variable_(computer_science)", "Data_type", "Object_(computer_science)", "Primitive_data_type", "Null_pointer", "Boolean_data_type", "String_(computer_science)", "Character_(computing)"],
+	"15":["Data_type", "Variable_(computer_science)", "Array_data_type", "Object_(computer_science)"],
+	"16":["Data_type", "List_(abstract_data_type)", "Object_(computer_science)"],
+	"17":["Data_type", "Associative_array", "Object_(computer_science)", "Data"]
+}

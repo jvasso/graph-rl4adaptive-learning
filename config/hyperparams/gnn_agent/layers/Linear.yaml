@@ -1,0 +1,20 @@
+# in_channels (int): Size of each input sample. Will be initialized
+#   lazily in case it is given as :obj:`-1`.
+# out_channels (int): Size of each output sample.
+
+bias: True
+# bias (bool, optional): If set to :obj:`False`, the layer will not learn
+#   an additive bias. (default: :obj:`True`)
+
+weight_initializer: null
+# weight_initializer (str, optional): The initializer for the weight
+#   matrix (:obj:`"glorot"`, :obj:`"uniform"`, :obj:`"kaiming_uniform"`
+#   or :obj:`None`).
+#   If set to :obj:`None`, will match default weight initialization of
+#   :class:`torch.nn.Linear`. (default: :obj:`None`)
+
+bias_initializer: null
+# bias_initializer (str, optional): The initializer for the bias vector
+#   (:obj:`"zeros"` or :obj:`None`).
+#   If set to :obj:`None`, will match default bias initialization of
+#   :class:`torch.nn.Linear`. (default: :obj:`None`)

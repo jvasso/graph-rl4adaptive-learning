@@ -1,0 +1,11 @@
+trainer: "trainer1"
+#logger: "logger2"
+logger: "logger1"
+
+# do not change that!
+eval_frequency: 5
+
+ask_save: false
+default_save: true
+use_tensorboard: false
+search_similar_test: true

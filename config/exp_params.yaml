@@ -1,0 +1,6 @@
+env: "env2"
+trainer: "trainer1"
+corpus: ["corpus1", "corpus2", "corpus3", "corpus4", "corpus5", "corpus6"]
+seed: "25seeds_mode1"
+#seed: "5seeds_mode1"
+load_params: None

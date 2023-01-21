@@ -1,0 +1,3 @@
+train_interval_ep: 1
+test_interval_ep: 1
+update_interval_ep: 1

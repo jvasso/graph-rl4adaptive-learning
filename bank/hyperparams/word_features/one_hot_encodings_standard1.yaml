@@ -1,0 +1,4 @@
+feature_type: "one_hot_encoding"
+folder: "standard1"
+
+one_hot_encoding_type: "shuffled_True-size_100"

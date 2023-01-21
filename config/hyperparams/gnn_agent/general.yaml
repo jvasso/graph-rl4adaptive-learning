@@ -1,0 +1,4 @@
+middle_dim: [32]
+gnn_arch: ["gnn_arch4"]
+feedback_arch: ["feedback_arch2"]
+time_arch: ["time_arch2"]

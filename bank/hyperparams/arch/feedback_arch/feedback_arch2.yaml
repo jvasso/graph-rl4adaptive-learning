@@ -1,0 +1,3 @@
+arch:
+  - {layer_type: "feedback", layer_cls: "Linear"}
+  - {layer_type: "feedback", layer_cls: "Linear"}

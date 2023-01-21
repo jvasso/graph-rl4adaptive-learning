@@ -1,0 +1,91 @@
+# :param policy: an instance of the :class:`~tianshou.policy.BasePolicy` class.
+# :param Collector train_collector: the collector used for training.
+# :param Collector test_collector: the collector used for testing. If it's None,
+#     then no testing will be performed.
+
+# computed automatically
+# max_epoch: null
+# :param int max_epoch: the maximum number of epochs for training. The training
+#     process might be finished before reaching ``max_epoch`` if ``stop_fn`` is
+#     set.
+
+# computed automatically
+# step_per_epoch: null
+# :param int step_per_epoch: the number of transitions collected per epoch.
+
+#repeat_per_collect: 20
+# :param int repeat_per_collect: the number of repeat time for policy learning,
+#     for example, set it to 2 means the policy needs to learn each given batch
+#     data twice.
+
+episode_per_test: 1
+# :param int episode_per_test: the number of episodes for one policy evaluation.
+
+# batch_size: 15
+# # :param int batch_size: the batch size of sample data, which is going to feed in
+# #     the policy network.
+
+# step_per_collect: null
+# # :param int step_per_collect: the number of transitions the collector would
+# #     collect before the network update, i.e., trainer will collect
+# #     "step_per_collect" transitions and do some policy network update repeatedly
+# #     in each epoch.
+
+# episode_per_collect: 1
+# # :param int episode_per_collect: the number of episodes the collector would
+# #     collect before the network update, i.e., trainer will collect
+# #     "episode_per_collect" episodes and do some policy network update repeatedly
+# #     in each epoch.
+
+# train_fn: null
+# # :param function train_fn: a hook called at the beginning of training in each
+# #     epoch. It can be used to perform custom additional operations, with the
+# #     signature ``f(num_epoch: int, step_idx: int) -> None``.
+
+# test_fn: null
+# # :param function test_fn: a hook called at the beginning of testing in each
+# #     epoch. It can be used to perform custom additional operations, with the
+# #     signature ``f(num_epoch: int, step_idx: int) -> None``.
+
+# save_best_fn: null
+# # :param function save_best_fn: a hook called when the undiscounted average mean
+# #     reward in evaluation phase gets better, with the signature
+# #     ``f(policy: BasePolicy) -> None``. It was ``save_fn`` previously.
+
+# save_checkpoint_fn: null
+# # :param function save_checkpoint_fn: a function to save training process and
+# #     return the saved checkpoint path, with the signature ``f(epoch: int,
+# #     env_step: int, gradient_step: int) -> str``; you can save whatever you want.
+
+# resume_from_log: False
+# # :param bool resume_from_log: resume env_step/gradient_step and other metadata
+# #     from existing tensorboard log. Default to False.
+
+stop_fn: null
+# :param function stop_fn: a function with signature ``f(mean_rewards: float) ->
+#     bool``, receives the average undiscounted returns of the testing result,
+#     returns a boolean which indicates whether reaching the goal.
+
+# reward_metric: 
+# # :param function reward_metric: a function with signature
+# #     ``f(rewards: np.ndarray with shape (num_episode, agent_num)) ->
+# #     np.ndarray with shape (num_episode,)``, used in multi-agent RL.
+# #     We need to return a single scalar for each episode's result to monitor
+# #     training in the multi-agent RL setting. This function specifies what is the
+# #     desired metric, e.g., the reward of agent 1 or the average reward over
+# #     all agents.
+
+# :param BaseLogger logger: A logger that logs statistics during
+#     training/testing/updating. Default to a logger that doesn't log anything.
+
+# verbose: True
+# # :param bool verbose: whether to print the information. Default to True.
+
+# show_progress: True
+# # :param bool show_progress: whether to display a progress bar when training.
+# #     Default to True.
+
+# test_in_train: True
+# # :param bool test_in_train: whether to test in the training phase. Default to
+# #     True.
+

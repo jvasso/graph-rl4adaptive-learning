@@ -1,0 +1,7 @@
+arch:
+  - {layer_type: "kw2kw"   , layer_cls: "Linear"}
+  - {layer_type: "kw2doc"  , layer_cls: "MessagePassing"}
+  - {layer_type: "merge_f" , layer_cls: "Mul"}
+  - {layer_type: "doc2kw"  , layer_cls: "GeneralConv"}
+  - {layer_type: "kw2doc"  , layer_cls: "GeneralConv"}
+  - {layer_type: "merge_t" , layer_cls: "Mul"}

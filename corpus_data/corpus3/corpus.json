@@ -1,0 +1,21 @@
+{
+	"0": ["Deep_learning", "Machine_learning", "Artificial_intelligence", "Neuron", "Axon", "Dendrite", "Synapse", "Artificial_neuron"],
+	"1": ["Deep_learning", "Machine_learning", "Feature_engineering", "Pattern_recognition", "Learning"],
+	"2": ["Deep_learning", "Artificial_neuron", "Artificial_neural_network", "Backpropagation", "Library_(computing)"],
+	"3": ["Artificial_neuron", "Convolutional_neural_network", "Recurrent_neural_network", "Time_series"],
+	"4": ["Artificial_neuron", "Sigmoid_function", "Logistic_regression", "Linear_regression"],
+	"5": ["Artificial_neural_network", "Artificial_neuron", "Activation_function", "Sigmoid_function"],
+	"6": ["Artificial_neural_network", "Artificial_neuron", "Loss_function", "Cross_entropy"],
+	"7": ["Artificial_neuron", "Artificial_neural_network", "Mathematical_optimization", "Loss_function", "Stochastic_gradient_descent"],
+	"8": ["Artificial_neural_network", "Artificial_neuron", "Backpropagation", "Loss_function"],
+	"9": ["Artificial_neural_network", "Softmax_function", "Activation_function", "Sigmoid_function", "Cross_entropy", "Training,_test,_and_validation_sets", "Neuron"],
+	"10":["Artificial_neural_network", "Stochastic_gradient_descent", "Loss_function", "Mathematical_optimization"],
+	"11":["Artificial_neural_network", "Activation_function", "Vanishing_gradient_problem", "Feedforward_neural_network"],
+	"12":["Convolutional_neural_network", "Computer_vision"],
+	"13":["Filter_(signal_processing)", "Convolution", "Convolutional_neural_network"],
+	"14":["Convolutional_neural_network", "Filter_(signal_processing)", "Softmax_function", "Activation_function"],
+	"15":["Recurrent_neural_network", "Time_series", "Artificial_neuron", "Long_short-term_memory", "Activation_function"],
+	"16":["Long_short-term_memory", "Forecasting", "Artificial_neuron"],
+	"17":["Long_short-term_memory", "Recurrent_neural_network", "Word_embedding"],
+	"18":["Deep_learning", "Autoencoder", "Reinforcement_learning", "Generative_adversarial_network", "Transfer_learning"]
+}

@@ -1,0 +1,3 @@
+features_params: ["embeddings_standard1", "one_hot_encodings_standard1"]
+doc_encoding: "zero"
+normalize: false

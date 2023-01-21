@@ -1,0 +1,33 @@
+# aggr (string, optional): The aggregation scheme to use
+#     (:obj:`"add"`, :obj:`"mean"`, :obj:`"min"`, :obj:`"max"`,
+#     :obj:`"mul"` or :obj:`None`). (default: :obj:`"add"`)
+aggr: "mean"
+# flow (string, optional): The flow direction of message passing
+#     (:obj:`"source_to_target"` or :obj:`"target_to_source"`).
+#     (default: :obj:`"source_to_target"`)
+flow: "source_to_target"
+# node_dim (int, optional): The axis along which to propagate.
+#     (default: :obj:`-2`)
+# decomposed_layers (int, optional): The number of feature decomposition
+#     layers, as introduced in the `"Optimizing Memory Efficiency of
+#     Graph Neural Networks on Edge Computing Platforms"
+#     <https://arxiv.org/abs/2104.03058>`_ paper.
+#     Feature decomposition reduces the peak memory usage by slicing
+#     the feature dimensions into separated feature decomposition layers
+#     during GNN aggregation.
+#     This method can accelerate GNN execution on CPU-based platforms
+#     (*e.g.*, 2-3x speedup on the
+#     :class:`~torch_geometric.datasets.Reddit` dataset) for common GNN
+#     models such as :class:`~torch_geometric.nn.models.GCN`,
+#     :class:`~torch_geometric.nn.models.GraphSAGE`,
+#     :class:`~torch_geometric.nn.models.GIN`, etc.
+#     However, this method is not applicable to all GNN operators
+#     available, in particular for operators in which message computation
+#     can not easily be decomposed, *e.g.* in attention-based GNNs.
+#     The selection of the optimal value of :obj:`decomposed_layers`
+#     depends both on the specific graph dataset and available hardware
+#     resources.
+#     A value of :obj:`2` is suitable in most cases.
+#     Although the peak memory usage is directly associated with the
+#     granularity of feature decomposition, the same is not necessarily
+#     true for execution speedups. (default: :obj:`1`)

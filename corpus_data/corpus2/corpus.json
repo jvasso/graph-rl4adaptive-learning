@@ -1,0 +1,13 @@
+{
+	"0": ["Artificial_intelligence", "Recommender_system", "Facial_recognition_system", "Forecasting"],
+	"1": ["Artificial_intelligence", "Information_technology", "Convolutional_neural_network"],
+	"2": ["Artificial_intelligence", "Speech_recognition", "Autonomous_car"],
+	"3": ["Artificial_intelligence", "Big_data", "Data", "Computer_program"],
+	"4": ["Artificial_intelligence", "Big_data", "Data", "Data_science", "Mathematics", "Statistics", "Forecasting"],
+	"5": ["Artificial_intelligence", "Machine_learning", "Deep_learning", "Learning", "Data", "Artificial_neural_network", "Outline_of_natural_language_processing", "Data_science"],
+	"6": ["Artificial_intelligence", "Machine_learning", "Deep_learning", "Algorithm", "Information_technology"],
+	"7": ["Artificial_intelligence", "Machine_learning", "Data", "Statistical_model", "Learning", "Data_collection"],
+	"8": ["Machine_learning", "Learning", "Statistical_model", "Algorithm", "Supervised_learning", "Unsupervised_learning", "Reinforcement_learning", "Feature_engineering"],
+	"9": ["Artificial_intelligence", "Deep_learning", "Artificial_neural_network", "Neuron", "Input/output", "Supervised_learning", "Unsupervised_learning", "Algorithm", "Activation_function", "Learning"],
+	"10":["Convolutional_neural_network", "Artificial_neural_network", "Convolution", "Kernel_(image_processing)"]
+}
