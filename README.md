@@ -44,10 +44,10 @@ There are 4 types of parameters in the "/config" directory:
 - "hyperparams" which determines the model
 - "experiment_params" which determines the modalities of the experiment: 2 experiments with different experiment_params are not comparable.
 - the "extra_params" which does not determine the model nor the results of the experiment (example: save frequency for the logs)
-- the "visualization_params" which are absolutely useless.
+- the "visualization_params" (useless)
 
 All these parameters are grouped in the "/config" folder.
-A config is the meeting of: a set of hyperparams, experiment_params and extra_params (and visualization_params, but this is not important).
+A config is the combination of: a set of hyperparams, experiment_params and extra_params (and visualization_params, but this is not important).
 
 To test multiple parameter values (e.g. hyperparameter values) just put a list of these values in the corresponding entry of the associated yaml file. This will automatically create all possible combinations of configs.
 Each time a new set of hyperparams or experiment_params is created, it is saved in the "/ids" folder (the code checks beforehand that it does not already exist, so that the same experiment is never conducted twice).
