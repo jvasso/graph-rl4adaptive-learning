@@ -1,6 +1,6 @@
 ## Graph RL for Adaptive Learning
 
-This is the official implementation of the model in the paper: "Towards scalable adaptive learning with graph neural networks and reinforcement learning".
+This is the official implementation of the paper: "Towards scalable adaptive learning with graph neural networks and reinforcement learning".
 
 
 ### INSTALLATION
