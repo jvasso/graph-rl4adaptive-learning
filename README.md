@@ -5,11 +5,11 @@ This is the official implementation of the paper: "Towards scalable adaptive lea
 
 ### INSTALLATION
 
-The requirements can be installed with the following steps (using Anaconda):
+[UPDATE]
+The requirements can ben installed with the following steps (using Anaconda):
 ```
-conda create --name gnn_rl_env
-conda activate gnn_rl_env
-bash install.sh
+conda env create --name my_new_env -f environment.yml
+conda activate my_new_env
 ```
 
 ### USAGE
